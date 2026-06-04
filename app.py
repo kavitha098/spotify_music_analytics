@@ -58,7 +58,7 @@ section[data-testid="stSidebar"] {
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("data/data.csv")
+    return pd.read_csv("data.csv")
 
 df = load_data()
 
